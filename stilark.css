@@ -1,0 +1,78 @@
+body {
+  margin: 0px;
+  background-image: url('bilder/bakgrunn.jpg');
+  background-repeat: no-repeat;
+}
+
+/* Topp */
+h1 {
+  background-color: #000000;
+  color: #FF0000;
+  width: 100%;
+  margin-top: 15px;
+  text-align: center;
+}
+
+/* Hoveddel */
+.pappa {
+  display: flex;
+  flex-direction: column;
+}
+
+.overgutt {
+  background-color: #EEFF00;
+  margin: auto;
+  text-align: center;
+  width: 90%;
+}
+
+.undergutt {
+  background-color: #00FF00;
+  margin: auto;
+  width: 90%;
+}
+
+.undergutt img {
+  width: 12%;
+}
+
+/* Sideside */
+.sidepappa {
+  margin: auto;
+  margin-top: 15px;
+  width: 90%;
+  display: flex;
+  flex-flow: wrap;
+}
+
+.bilde {
+  border: 2px solid #00FF00;  
+  width: 20%;
+}
+
+.beskrivelse {
+  width: 70%;
+  border: 2px solid #00FF00;
+  padding: 50px;
+}
+
+.tabell {
+  margin: auto;
+  margin-top: 15px;
+  width: 70%;
+  border: 2px solid #00FF00;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th {
+  font-size: 30px;
+  border-right: 2px solid #000000;
+}
+
+td {
+  font-size: 20px;
+  border-right: 2px solid #000000;
+}
